@@ -13,6 +13,8 @@ require.def("basicapp/appui/datasources/testdatafeed",
                 device.loadURL(url, {
                     onLoad: function(responseText) {
                         console.log("Success!", responseText);
+
+                        callbacks.onSuccess(responseText);
                     },
                     onError: function(responseText) {
                         console.error("Error!", responseText);
