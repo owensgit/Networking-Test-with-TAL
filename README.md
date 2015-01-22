@@ -3,6 +3,8 @@ A very basic TAL application with basic networking and data binding.
 
 Built using the TV Application Layer (TAL) - http://fmtvp.github.io/
 
+**Note: this is currently not working**
+
 ## How it works
 
 1. Uses a horizontal list widget containing buttons
